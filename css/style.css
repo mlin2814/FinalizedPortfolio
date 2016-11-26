@@ -1,0 +1,275 @@
+body {
+    margin: 5px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 160%;
+    font-family: "Georgia",Times New Roman,Times,serif;
+    background-color: #494e6b;
+    color: #d5d5d5;
+}
+
+h1 {
+    padding: 5px;
+    color: #eee;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding: 5px;
+    color: #d7cec7;
+    margin: 0;
+    font-size: 25px;
+    text-align: left;
+    }
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+    padding: 2px;
+}
+
+section {
+    padding: 10PX;
+    margin-bottom: 10PX;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-subheading {
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-wrapper {
+    background-color: #98878f;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    left: 40px;
+    right: 40px;
+    float: center;
+}
+
+#header {
+    position: static;
+    background: #333a56;
+    padding: 5px;
+    text-align: left;
+    margin: 0;
+    top: 0;
+    left: 90px;
+    width: 300px;
+    height: auto;
+    color: #FFFFFF;
+    font: 'Georgia', Times, Times New Roman, serif;
+}
+
+#subheader {
+    position: relative;
+    background: #4aaaa5;
+    padding: 10px;
+    text-align: center;
+    margin-left: 90px;
+    top: 20px;
+    left: 90px;
+    width: 120px;
+    height: 70px;
+    color: #777777;
+    font: 'Georgia', Times, Times New Roman, serif;
+}
+
+.responsive-img {
+    float: center;
+    width: 250px;
+    height: 250px;
+}
+
+#navigation {
+    position: relative;
+    left: 750px;
+    float: right;
+    color: #eee;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    height: 55px;
+    bottom: 72px;
+    font: 'Georgia', Times, Times New Roman, serif;
+}
+
+#background {
+    position: relative;
+    background: #4aaaa5;
+    padding: 0;
+    top: 31px;
+    left: 0;
+    right: 0;
+}
+
+#MainBody {
+    width: 650px;
+    height: 20000px;
+    margin-top: 65px;
+    margin-left: 30px;
+    background-color: #03C;
+    color: 000000;
+    float: center;
+    position: inherit;
+}
+
+#portfolio {
+    width: 10px;
+    height: 10px;
+    position: inherit;
+    color: #4aaaa5;
+    background-color: #666;
+    float: center; 
+    clear: left; 
+    font-size: 15px;
+}
+
+#connection {
+    float: center;
+    color: #eee;
+    text-align: center;
+    margin: 0;
+    border-color: #4aaaa5;
+    width: 300px;
+    height: auto;
+    font: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    background: #6d7993;  
+}
+
+#connection-image {
+    float: center;
+    width: 50px;
+    height: 50px;
+}
+
+#RPG {
+    width: 10px;
+    height: 10px;
+    position: inherit;
+    color: #4aaaa5;
+    background-color: #666; 
+    float: right;
+    clear: right;
+}
+
+#triviagame {
+    width: 10px;
+    height: 10px;
+    position: inherit;
+    color: #4aaaa5;
+    background-color: #666; 
+    float: left;
+    clear: left;
+}
+
+#rutgersinfowidget {
+    width: 10px;
+    height: 10px;
+    position: inherit;
+    color: #4aaaa5;
+    background-color: #666; 
+    float: right;
+    clear: right;
+}
+
+#RockPaperScissors  {
+    width: 10px;
+    height: 10px;
+    position: inherit;
+    color: #4aaaa5;
+    background-color: #666; 
+    float: left;
+    clear: left;
+}
+
+#left {
+    position: relative;
+    top: 50px;
+    padding: 40px;
+    float: left;
+    width: 90%;
+    background: #666;
+    color: #fff;
+}
+
+#left2 {
+    float: left;
+    width: 50%;
+    background: #666;
+    color: #fff;
+}
+
+#middle {
+    float: center;
+    width: 33.3%;
+    background: #888;
+    color: #fff;
+}
+
+#Sidebar {
+    float: right;
+    width: 100px;
+    height: 300px;
+    background-color: #0C0;
+}
+
+#full {
+    float: center;    
+    width: 100%;
+    background: #eee;
+    overflow: auto;
+}
+
+#division {
+    background: #6ea3da;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#footer {
+  right: 0;
+  bottom: 0;
+  padding: 1px;
+  background: #192231;
+  text-align: center;
+  position: inherit;
+  float: center;
+  clear: both;
+}
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+}
