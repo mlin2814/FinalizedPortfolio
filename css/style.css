@@ -4,8 +4,10 @@ body {
     font-size: 18px;
     line-height: 160%;
     font-family: "Georgia",Times New Roman,Times,serif;
-    background-color: #494e6b;
     color: #d5d5d5;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h1 {
@@ -95,6 +97,15 @@ section {
     align-content: center;
 }
 
+.logo{
+      position: absolute;
+      float: center;
+      top: 25%;
+      left: 50%;
+      
+      margin-left: -150px;
+}
+
 #navigation {
     position: relative;
     left: 750px;
@@ -140,12 +151,12 @@ section {
 }
 
 #connection {
-    float: center;
+    float: right;
     color: #eee;
     text-align: center;
     margin: 0;
     border-color: #4aaaa5;
-    width: 300px;
+    width: auto;
     height: auto;
     font: 'Georgia', Times, Times New Roman, serif;
     font-size: 16px;
@@ -247,7 +258,8 @@ section {
   bottom: 0;
   padding: 1px;
   background: #192231;
-  text-align: center;
+  text-align: left;
+  font-size: 12px;
   position: inherit;
   float: center;
   clear: both;
@@ -263,6 +275,73 @@ section {
     flex: 1 0 auto;
   }
 
+#stretchRight{
+    transform: scaleX(0.3);
+
+}
+.stretchRight{
+    animation-name: stretchRight;
+    -webkit-animation-name: stretchRight;   
+
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+
+    transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;        
+}
+
+@keyframes stretchRight {
+    0% {
+        transform: scaleX(0.3);
+    }
+    40% {
+        transform: scaleX(1.02);
+    }
+    60% {
+        transform: scaleX(0.98);
+    }
+    80% {
+        transform: scaleX(1.01);
+    }
+    100% {
+        transform: scaleX(0.98);
+    }               
+    80% {
+        transform: scaleX(1.01);
+    }
+    100% {
+        transform: scaleX(1);
+    }                           
+}
+
+@-webkit-keyframes stretchRight {
+    0% {
+        -webkit-transform: scaleX(0.3);
+    }
+    40% {
+        -webkit-transform: scaleX(1.02);
+    }
+    60% {
+        -webkit-transform: scaleX(0.98);
+    }
+    80% {
+        -webkit-transform: scaleX(1.01);
+    }
+    100% {
+        -webkit-transform: scaleX(0.98);
+    }               
+    80% {
+        -webkit-transform: scaleX(1.01);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+    }       
+}
+
 @media screen and (max-width: 980px) {
 
 }
@@ -274,3 +353,4 @@ section {
 @media screen and (max-width: 640px) {
     
 }
+
